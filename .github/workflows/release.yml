@@ -40,9 +40,9 @@ jobs:
       with:
         build-args: |
           REPOSITORY=IrineSistiana/mosdns
-          TAG=${{ env.TAG }}
+          TAG=latest,${{ env.TAG }}
         platforms: linux/amd64,linux/arm/v7,linux/arm64
         push: true
         tags: |
-          ghcr.io/sagit-chu/mosdns:latest
-          ghcr.io/sagit-chu/mosdns:${{ env.TAG }}
+          ghcr.io/guhill1/mosdns:latest
+          ghcr.io/guhill1/mosdns:${{ env.TAG }}
