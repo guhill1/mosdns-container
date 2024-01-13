@@ -1,4 +1,5 @@
 name: Release mosdns docker
+
 on:
   repository_dispatch:
   workflow_dispatch:
