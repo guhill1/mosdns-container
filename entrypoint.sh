@@ -12,7 +12,5 @@ cp -u /geoip_cn.txt /etc/mosdns/geoip_cn.txt
 cp -u /geosite_category-ads-all.txt /etc/mosdns/geosite_category-ads-all.txt
 cp -u /geosite_geolocation-!cn.txt /etc/mosdns/geosite_geolocation-!cn.txt
 cp -u /geosite_cn.txt /etc/mosdns/geosite_cn.txt
-cp -u /accelerated-domains.china.txt /etc/mosdns/accelerated-domains.china.txt
-cp -u /all_cn.txt /etc/mosdns/all_cn.txt
 
 /usr/bin/mosdns start --dir /etc/mosdns
